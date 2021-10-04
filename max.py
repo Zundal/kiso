@@ -1,7 +1,7 @@
-cnt = 0
-while(True):
-    if cnt == 9:
-        break;
-    print('loop',cnt)
+arr = []
+for _ in range(9):
+    arr.append(int(input()))
     
-    cnt+=1
+result = max(arr)
+print(result)
+print(arr.index(result)+1)
