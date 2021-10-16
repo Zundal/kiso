@@ -1,12 +1,11 @@
-a = input()
+result = int(input())
 stack = []
-for _ in a:
-    stack.append(_)
+for x in range(result):
+    addNum = int(input())
+    stack.append(addNum)
 
 stack.sort()
 stack.reverse()
-result = ''
-for _ in stack :
-    result += _
 
-print(result)
+for x in stack:
+    print(x)
