@@ -1,5 +1,7 @@
-import hashlib
-h = hashlib.new('sha1')
-h.update(b"Baekjoon")
+from hashlib import sha1
 
-print(h.hexdigest())
+def make_sha1(s, encoding='utf-8'):
+    return sha1(s.encode(encoding)).hexdigest()
+    
+s = input()
+print(make_sha1(s, encoding='utf-8'))
