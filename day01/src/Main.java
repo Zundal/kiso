@@ -7,7 +7,7 @@ public class Main {
         int number = sc.nextInt();
 
         String temp = "";
-        String arr[] = new String[number];
+        String[] arr = new String[number];
 
         for(int x=0; x<number; x++){
             arr[x] = sc.next();
