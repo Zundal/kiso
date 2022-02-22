@@ -34,3 +34,6 @@ public class Main {
     }
 }
 
+class Machine {
+
+}
