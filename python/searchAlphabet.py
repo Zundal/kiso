@@ -1,3 +1,6 @@
+'''
+    python in 명령어를 잘쓰는 방법에 대해서 참고하자
+'''
 txt = list(input())
 result = []
 
